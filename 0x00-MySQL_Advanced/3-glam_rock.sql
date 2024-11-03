@@ -3,7 +3,7 @@
 SELECT band_name,
        CASE
            WHEN split IS NULL THEN (2022 - formed)
-           ELSE (2022 - split)
+           ELSE (split - formed)
        END AS lifespan
 FROM metal_bands
 where style like "%Glam rock%"
