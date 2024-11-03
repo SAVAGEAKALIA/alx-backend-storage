@@ -17,6 +17,3 @@ BEGIN
 END $$
 
 DELIMITER ;
-show procedure status;
-show create procedure ComputeAverageScoreForUser;
-drop procedure ComputeAverageScoreForUser;
