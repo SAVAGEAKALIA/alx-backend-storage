@@ -1,1 +1,2 @@
+// Match all cases with name
 db.school.find({name: "Holberton school"})
