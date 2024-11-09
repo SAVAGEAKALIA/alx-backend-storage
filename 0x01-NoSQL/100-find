@@ -1,1 +1,2 @@
+// Regex pattern to find
 db.school.find({name: /Holberton/})
