@@ -64,15 +64,10 @@ def print_ngx_logs(collection):
         sorted_ips = sorted(ip_count['ips'].items(), key=lambda x: x[1], reverse=True)
 
         # limit = 0
-        flag = 0
+        print(f'IPs:')
         for ip, count in sorted_ips[:10]:
             """ Iterate over over the list of tuples"""
-            if flag == 0:
-                print(f'IPS:\n'
-                      f'\t {ip}: {count}')
-                flag = 1
-            else:
-                print(f'\t {ip}: {count}')
+            print(f'\t{ip}: {count}')
         # limit += 1
 
     except Exception as e:
