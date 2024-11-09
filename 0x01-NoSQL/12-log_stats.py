@@ -72,7 +72,7 @@ def print_ngx_logs(collection):
             method_counts[method["_id"]] = method["count"]
 
         # Print method counts
-        print(f'Methods: ')
+        print(f'Methods:')
         for method in ["GET", "POST", "PUT", "PATCH", "DELETE"]:
             print(f'\tmethod {method}: {method_counts[method]}')
 
