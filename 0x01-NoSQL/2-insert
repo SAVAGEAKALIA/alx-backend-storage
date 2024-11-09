@@ -1,2 +1,2 @@
 // Insert into collection
-db.school.insertMany({ name: "Holberton school" });
+db.school.insert({ name: "Holberton school" });
