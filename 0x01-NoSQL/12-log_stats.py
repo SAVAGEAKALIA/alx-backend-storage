@@ -72,7 +72,7 @@ def print_ngx_logs(collection):
             method_counts[method["_id"]] = method["count"]
 
         # Print method counts
-        print(f'Methods:')
+        print(f'Methods: ')
         for method in ["GET", "POST", "PUT", "PATCH", "DELETE"]:
             print(f'\t method {method}: {method_counts[method]}')
 
@@ -82,6 +82,7 @@ def print_ngx_logs(collection):
 
     except Exception as e:
         print(f'Error: {e}')
+
 
 if __name__ == '__main__':
     """If run directly on Terminal"""
