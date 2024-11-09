@@ -1,5 +1,5 @@
 // update school collections
-db.school.updateMany(
+db.school.update(
   { name: { $regex: /^Holberton school$/i } },
   { $set: { address: "972 Mission street" } }
 );
