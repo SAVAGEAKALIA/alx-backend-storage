@@ -1,4 +1,4 @@
-#!/bin/usr/env python
+#!/bin/usr/env python3
 """Task 10. Change school topics"""
 
 
