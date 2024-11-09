@@ -68,7 +68,7 @@ def print_ngx_logs(collection):
         for ip, count in sorted_ips[:10]:
             """ Iterate over over the list of tuples"""
             if flag == 0:
-                print(f'IPS: \n'
+                print(f'IPS:\n'
                       f'\t {ip}: {count}')
                 flag = 1
             else:
