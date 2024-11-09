@@ -74,7 +74,7 @@ def print_ngx_logs(collection):
         # Print method counts
         print(f'Methods: ')
         for method in ["GET", "POST", "PUT", "PATCH", "DELETE"]:
-            print(f'\t method {method}: {method_counts[method]}')
+            print(f'\tmethod {method}: {method_counts[method]}')
 
         # GET /status count
         get_status_count = collection.count_documents({"method": "GET", "path": "/status"})
