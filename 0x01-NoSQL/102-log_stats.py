@@ -52,7 +52,7 @@ def print_ngx_logs(collection):
                     else:
                         ip_count['ips'][value] = 1
 
-        print(f'Methods:'
+        print(f'Methods:\n'
               f'\tmethod GET: {get_count}\n'
               f'\tmethod POST: {post_count}\n'
               f'\tmethod PUT: {put_count}\n'
