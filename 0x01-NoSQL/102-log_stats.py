@@ -52,12 +52,12 @@ def print_ngx_logs(collection):
                     else:
                         ip_count['ips'][value] = 1
 
-        print(f'Methods: \n'
-              f'\t method GET: {get_count}\n'
-              f'\t method POST: {post_count}\n'
-              f'\t method PUT: {put_count}\n'
-              f'\t method PATCH: {patch_count}\n'
-              f'\t method DELETE: {delete_count}')
+        print(f'Methods:'
+              f'\tmethod GET: {get_count}\n'
+              f'\tmethod POST: {post_count}\n'
+              f'\tmethod PUT: {put_count}\n'
+              f'\tmethod PATCH: {patch_count}\n'
+              f'\tmethod DELETE: {delete_count}')
 
         print(f'{def_count} status check')
 
